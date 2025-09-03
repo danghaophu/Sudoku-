@@ -15,10 +15,12 @@ Nhóm phát triển một hệ thống giải Sudoku chữ số viết tay đơn
 - Gồm **60.000 mẫu huấn luyện** và **10.000 mẫu kiểm thử**.  
 
 <img width="566" height="465" alt="image" src="https://github.com/user-attachments/assets/fa350753-edaa-4e5f-a9fb-9e3f4b5ac1cf" />  
+<br>
 *Hình 1. Minh họa dữ liệu trong không gian 3D*  
 
-<img width="950" height="968" alt="image" src="https://github.com/user-attachments/assets/0110cd2c-5e6c-41f0-aa76-93f06065b54a" />  
-*Hình 2. Cấu trúc mô hình CNN*  
+<img width="950" height="968" alt="image" src="https://github.com/user-attachments/assets/0110cd2c-5e6c-41f0-aa76-93f06065b54a" />
+<br>
+*Hình 2. Cấu trúc mô hình CNN*
 
 ---
 
@@ -31,6 +33,7 @@ Nhóm sử dụng **MobileNet V1** với 30 lớp:
 - Lớp 30: Softmax  
 
 <img width="950" height="686" alt="image" src="https://github.com/user-attachments/assets/707a9698-fd8f-49b0-ae7d-47d896cb072d" />  
+<br>
 *Hình 3. Depthwise Separable Convolution*  
 
 ---
@@ -40,6 +43,7 @@ Nhóm sử dụng **MobileNet V1** với 30 lớp:
 - Khi dự đoán, KNN tính toán khoảng cách từ điểm mới tới toàn bộ dữ liệu huấn luyện và chọn *k láng giềng gần nhất*.  
 
 <img width="857" height="276" alt="image" src="https://github.com/user-attachments/assets/e06baa35-436d-49f1-97c5-d7fcbaf2849a" />  
+<br>
 *Hình 4. Hiệu suất KNN theo giá trị k (1–10)*  
 
 ---
@@ -48,6 +52,7 @@ Nhóm sử dụng **MobileNet V1** với 30 lớp:
 Trong đề tài, chỉ áp dụng cho Sudoku dạng chuẩn **9x9**.  
 
 <img width="594" height="297" alt="Screenshot 2024-03-19 165339" src="https://github.com/user-attachments/assets/55362a7d-ab08-4279-b49a-802722cfe13d" />  
+<br>
 *Hình 5. Minh họa Sudoku*  
 
 ---
